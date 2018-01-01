@@ -13,21 +13,31 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Code blog by Morten Henriksen
-email: mh@gi2.dk
-description: > # this means to ignore newlines until "baseurl:"
-  A tiny blog on coding with the main focus on Javascript / Ecmascript and
-  supersets. Also touching Meteor.js and React.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: MNON_Henriksen
-github_username:  raix
 
-# Build settings
+name: Morten N.O. Nørgaard Henriksen
+description: >
+  Blogging about practical coding
+meta_description: "Morten N.O. Nørgaard Henriksen, Blogging about practical coding"
+
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'https://raix.github.io'
+#google_analytics: 'UA-XXXXXXXX-X'
+plugins: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'https://raix.github.io/'
+author:         'Morten N.O. Nørgaard Henriksen'
+
+contact:
+    email: mh@gi2.dk
+    twitter: MNON_Henriksen
+    # facebook:
+    github: raix
+
 exclude:
   - Gemfile
   - Gemfile.lock

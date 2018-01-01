@@ -1,10 +1,6 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About me
 ---
 
-Undefined
-
-Morten
-{% include icon-github.html username="raix" %}
+This is a static page. It could be an 'about page' if you'd like.
