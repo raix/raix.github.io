@@ -15,21 +15,22 @@
 # in the templates via {{ site.myvariable }}.
 
 name: Morten N.O. Nørgaard Henriksen
-description: >
-  Blogging about practical coding
+description: Blogging about practical coding
 meta_description: "Morten N.O. Nørgaard Henriksen, Blogging about practical coding"
 
+permalink: /:year/:month/:day/:title
+
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'https://raix.github.io'
+domain_name: 'raix.github.io'
 #google_analytics: 'UA-XXXXXXXX-X'
 plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'https://raix.github.io/'
+url:            '/'
 author:         'Morten N.O. Nørgaard Henriksen'
 
 contact:
